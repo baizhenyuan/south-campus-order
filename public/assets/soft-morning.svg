@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="">
+  <defs>
+    <linearGradient id="morning" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3b59f"/>
+      <stop offset="0.48" stop-color="#fff1dc"/>
+      <stop offset="1" stop-color="#8fb59c"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.22" cy="0.12" r="0.68">
+      <stop offset="0" stop-color="#fff8df" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff8df" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#morning)"/>
+  <rect width="1200" height="900" fill="url(#light)"/>
+  <path d="M0 630c180-78 321-34 472-68 179-40 298-156 524-122 95 14 159 43 204 70v390H0Z" fill="#5f846b" opacity="0.22"/>
+  <path d="M0 716c190-48 340-28 500-54 201-33 334-104 554-72 62 9 110 24 146 43v267H0Z" fill="#26312c" opacity="0.18"/>
+  <g transform="translate(716 365) rotate(-8)">
+    <ellipse cx="0" cy="168" rx="196" ry="48" fill="#26312c" opacity="0.12" filter="url(#soft)"/>
+    <rect x="-174" y="-12" width="348" height="206" rx="22" fill="#fffaf4" opacity="0.92"/>
+    <rect x="-148" y="26" width="184" height="15" rx="7" fill="#e87561" opacity="0.52"/>
+    <rect x="-148" y="60" width="254" height="13" rx="6" fill="#527b64" opacity="0.36"/>
+    <rect x="-148" y="92" width="224" height="13" rx="6" fill="#e8bf62" opacity="0.42"/>
+  </g>
+  <g transform="translate(322 330)">
+    <ellipse cx="0" cy="188" rx="160" ry="38" fill="#26312c" opacity="0.12" filter="url(#soft)"/>
+    <path d="M-98 16h196v112c0 55-44 99-99 99s-99-44-99-99Z" fill="#fffaf4" opacity="0.94"/>
+    <path d="M98 52h34c34 0 62 28 62 62s-28 62-62 62H98v-34h34c15 0 28-13 28-28s-13-28-28-28H98Z" fill="#fffaf4" opacity="0.9"/>
+    <ellipse cx="0" cy="15" rx="100" ry="32" fill="#d9eadf"/>
+    <ellipse cx="0" cy="14" rx="73" ry="18" fill="#8b5e43" opacity="0.42"/>
+  </g>
+  <circle cx="1015" cy="186" r="96" fill="#fff6c8" opacity="0.5" filter="url(#soft)"/>
+</svg>
