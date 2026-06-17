@@ -2,20 +2,14 @@ services:
   - type: web
     name: south-campus-order
     env: node
-    plan: starter
+    plan: free
     buildCommand: npm install
     startCommand: npm start
     healthCheckPath: /api/health
     envVars:
       - key: NODE_ENV
         value: production
-      - key: DATA_DIR
-        value: /var/data
       - key: ACCESS_KEY
         sync: false
       - key: ADMIN_KEY
         sync: false
-    disk:
-      name: order-data
-      mountPath: /var/data
-      sizeGB: 1
