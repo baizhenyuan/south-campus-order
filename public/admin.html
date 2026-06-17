@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#2f3a35">
+    <title>收到的点餐订单</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="admin-page">
+    <main class="admin-shell">
+      <header class="admin-header">
+        <div>
+          <p class="eyebrow">你的查看页</p>
+          <h1>收到的订单</h1>
+        </div>
+        <button id="refreshButton" class="icon-button" type="button" title="刷新">刷新</button>
+      </header>
+
+      <section id="orderList" class="report-list" aria-live="polite">
+        <div class="empty-state">订单加载中...</div>
+      </section>
+    </main>
+
+    <script src="/admin.js?v=2"></script>
+  </body>
+</html>
