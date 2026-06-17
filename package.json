@@ -1,0 +1,12 @@
+{
+  "name": "south-campus-order",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private mobile ordering site for nearby South Campus food picks.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
