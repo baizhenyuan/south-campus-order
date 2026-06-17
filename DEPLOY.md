@@ -53,11 +53,7 @@ NODE_ENV=production
 DATA_DIR=/var/data
 ```
 
-8. 如果 Render 页面让你添加 Disk，添加一个 1GB 磁盘，挂载路径填：
-
-```text
-/var/data
-```
+8. 选择套餐时选 Free。不要添加 Disk，不要选 Starter 或其他付费套餐。
 
 ## 上线后怎么发链接
 
@@ -84,3 +80,5 @@ https://south-campus-order.onrender.com/admin.html?key=填你的后台口令
 不要把后台链接发给别人。
 
 如果你改了两个口令，旧链接会失效，需要重新发新链接。
+
+免费版提醒：Render 免费 Web Service 会在一段时间没人访问后休眠，下次打开会慢一点。免费版不能用持久化磁盘，所以订单记录可能在服务重启、重新部署或休眠后丢失。这个版本适合“点完你马上看”。
