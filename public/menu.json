@@ -1,0 +1,80 @@
+{
+  "categories": ["全部", "南校区小吃", "万达商场", "附近饭店", "奶茶甜品", "清真/蒙餐"],
+  "restaurants": [
+    {
+      "id": "south-snack-street",
+      "name": "南校区小吃街档口",
+      "area": "南校区周边",
+      "category": "南校区小吃",
+      "tags": ["近", "快", "学生常点"],
+      "items": [
+        { "id": "grilled-cold-noodle", "name": "烤冷面加肠", "price": 12, "desc": "酸甜口，可加辣" },
+        { "id": "egg-pancake", "name": "鸡蛋灌饼", "price": 9, "desc": "加里脊或火腿更顶饱" },
+        { "id": "liangpi", "name": "凉皮肉夹馍套餐", "price": 18, "desc": "适合没胃口但想吃点酸辣" },
+        { "id": "fried-skewer-cup", "name": "炸串小杯", "price": 16, "desc": "土豆、蘑菇、鸡柳任选" }
+      ]
+    },
+    {
+      "id": "beef-noodle-nearby",
+      "name": "校门口牛肉面",
+      "area": "昭君路附近",
+      "category": "附近饭店",
+      "tags": ["热汤", "快餐", "可加肉"],
+      "items": [
+        { "id": "beef-noodle", "name": "牛肉面", "price": 18, "desc": "热乎，适合冷天" },
+        { "id": "tomato-noodle", "name": "番茄鸡蛋面", "price": 16, "desc": "清淡一点" },
+        { "id": "braised-beef-rice", "name": "红烧牛肉盖饭", "price": 24, "desc": "更抗饿" }
+      ]
+    },
+    {
+      "id": "wandal-plaza-food",
+      "name": "万达广场美食集合",
+      "area": "万达广场（呼市城南店）",
+      "category": "万达商场",
+      "tags": ["商场", "约会", "选择多"],
+      "items": [
+        { "id": "spicy-hotpot", "name": "麻辣烫自选", "price": 28, "desc": "想吃什么夹什么" },
+        { "id": "bibimbap", "name": "石锅拌饭", "price": 32, "desc": "热乎又不太重口" },
+        { "id": "sour-fish", "name": "酸菜鱼单人份", "price": 39, "desc": "下饭，适合想吃酸辣" },
+        { "id": "burger-set", "name": "汉堡薯条套餐", "price": 35, "desc": "看电影前后都方便" }
+      ]
+    },
+    {
+      "id": "mongolian-flavor",
+      "name": "蒙餐/焖面选择",
+      "area": "南校区附近",
+      "category": "清真/蒙餐",
+      "tags": ["本地味", "肉香", "适合正餐"],
+      "items": [
+        { "id": "braised-noodle", "name": "排骨焖面", "price": 32, "desc": "一份很实在" },
+        { "id": "shaomai-milk-tea", "name": "烧麦配奶茶", "price": 26, "desc": "呼市经典早午餐" },
+        { "id": "mutton-soup", "name": "羊杂汤配饼", "price": 30, "desc": "热汤，适合天冷" }
+      ]
+    },
+    {
+      "id": "bbq-night",
+      "name": "附近烧烤夜宵",
+      "area": "小吃街/夜宵",
+      "category": "南校区小吃",
+      "tags": ["夜宵", "重口", "适合一起吃"],
+      "items": [
+        { "id": "bbq-set", "name": "双人烧烤小套", "price": 58, "desc": "羊肉串、鸡翅、烤面筋" },
+        { "id": "fried-instant-noodle", "name": "炒方便面", "price": 16, "desc": "夜宵灵魂" },
+        { "id": "roasted-potato", "name": "烤土豆片", "price": 10, "desc": "加辣更香" }
+      ]
+    },
+    {
+      "id": "sweet-drinks",
+      "name": "奶茶甜品补给",
+      "area": "南校区/万达周边",
+      "category": "奶茶甜品",
+      "tags": ["开心水", "甜", "下午茶"],
+      "items": [
+        { "id": "milk-tea", "name": "珍珠奶茶", "price": 16, "desc": "三分糖或五分糖" },
+        { "id": "fruit-tea", "name": "满杯水果茶", "price": 20, "desc": "清爽一点" },
+        { "id": "strawberry-cake", "name": "草莓小蛋糕", "price": 26, "desc": "心情修复专用" },
+        { "id": "egg-tart", "name": "蛋挞两枚", "price": 12, "desc": "顺手带一份" }
+      ]
+    }
+  ]
+}
