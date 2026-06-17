@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#e87561">
+    <title>南校区想吃什么</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <img class="hero-image" src="/assets/soft-morning.svg" alt="">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">内大南校区附近</p>
+          <h1>今天想吃什么</h1>
+          <p class="subcopy">从小吃街、万达和附近饭店里挑，点好我来安排。</p>
+        </div>
+      </section>
+
+      <form id="orderForm" class="panel order-panel">
+        <section class="toolbar" aria-label="筛选">
+          <div id="categoryTabs" class="tabs"></div>
+          <label class="search-field">
+            <span>搜索</span>
+            <input id="searchInput" type="search" placeholder="店名、菜名、口味">
+          </label>
+        </section>
+
+        <section>
+          <div class="section-title">
+            <h2>附近可选</h2>
+            <span id="menuCount">0 个选择</span>
+          </div>
+          <div id="menuList" class="menu-list"><div class="empty-state">菜单加载中...</div></div>
+        </section>
+
+        <section class="cart-panel">
+          <div class="section-title">
+            <h2>已点</h2>
+            <strong id="cartTotal">¥0</strong>
+          </div>
+          <div id="cartList" class="cart-list"></div>
+        </section>
+
+        <fieldset>
+          <legend>现在的状态</legend>
+          <div class="choice-grid compact-grid" data-choice-group="mood">
+            <button type="button" class="choice selected" data-value="想吃热乎的">想吃热乎的</button>
+            <button type="button" class="choice" data-value="想吃辣的">想吃辣的</button>
+            <button type="button" class="choice" data-value="想吃甜的">想吃甜的</button>
+            <button type="button" class="choice" data-value="不想动">不想动</button>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>怎么安排</legend>
+          <div class="choice-grid compact-grid" data-choice-group="fulfillment">
+            <button type="button" class="choice selected" data-value="你来送">你来送</button>
+            <button type="button" class="choice" data-value="一起去吃">一起去吃</button>
+            <button type="button" class="choice" data-value="点外卖">点外卖</button>
+            <button type="button" class="choice" data-value="先帮我选">先帮我选</button>
+          </div>
+        </fieldset>
+
+        <label class="field">
+          <span>菜单里没有的</span>
+          <input id="customFood" name="customFood" maxlength="80" placeholder="比如：学校门口那家鸡蛋灌饼、想喝杨枝甘露">
+        </label>
+
+        <label class="field">
+          <span>备注</span>
+          <textarea id="note" name="note" maxlength="240" rows="4" placeholder="少辣、多放醋、不要香菜，或者告诉我今天想被怎么照顾"></textarea>
+        </label>
+
+        <button class="submit-button" type="submit">把订单发给你</button>
+        <p id="status" class="status" role="status"></p>
+      </form>
+    </main>
+
+    <script src="/app.js?v=2"></script>
+  </body>
+</html>
